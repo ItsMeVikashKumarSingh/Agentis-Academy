@@ -15,7 +15,7 @@ export default function Header() {
         <Link
           href="#home"
           className="flex items-center gap-3 group"
-          aria-label="AgentCraft Home"
+          aria-label="Agentis Academy Home"
         >
           <div className="w-10 h-10 rounded-full border-[1.5px] border-[#171717] bg-[#fdfbf9] flex items-center justify-center shadow-[rgba(0,0,0,0.15)_0px_1px_2px_0px] transition-transform group-hover:scale-105">
             {/* Illustrated Pointing Hand / Pen Nib Icon */}
@@ -35,7 +35,7 @@ export default function Header() {
             </svg>
           </div>
           <span className="font-display font-semibold text-xl text-[#2b1a07] tracking-tight hidden sm:inline-block">
-            AgentCraft
+            Agentis
           </span>
         </Link>
 

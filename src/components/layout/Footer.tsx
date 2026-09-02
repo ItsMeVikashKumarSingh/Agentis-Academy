@@ -135,11 +135,11 @@ export default function Footer() {
                 Contact & Office
               </p>
               <p className="text-[#2b1a07]/85 text-xs leading-relaxed mb-2 font-medium">
-                AgentCraft Academy<br />
+                Agentis Academy<br />
                 Bandra Kurla Complex (BKC), Mumbai, Maharashtra 400051, India
               </p>
               <p className="font-mono text-xs text-[#2b1a07]/75">
-                <a href="mailto:lab@agentcraft.academy" className="hover:underline">lab@agentcraft.academy</a><br />
+                <a href="mailto:lab@agentis.academy" className="hover:underline">lab@agentis.academy</a><br />
                 <a href="tel:+919820041289" className="hover:underline">+91 98200 41289</a>
               </p>
               <div className="mt-3">
@@ -152,7 +152,7 @@ export default function Footer() {
 
           {/* Bottom fine print & Payment Gateway Compliance Links */}
           <div className="pt-8 border-t border-[#171717]/20 flex flex-col md:flex-row items-center justify-between text-xs text-[#2b1a07]/80 gap-4">
-            <p>© 2026 AgentCraft Academy. All rights reserved.</p>
+            <p>© 2026 Agentis Academy. All rights reserved.</p>
             <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
               <Link href="/privacy-policy" className="hover:underline">
                 Privacy Policy

@@ -5,8 +5,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Privacy Policy — AgentCraft Academy",
-  description: "Privacy Policy and data protection standards for AgentCraft Academy.",
+  title: "Privacy Policy — Agentis Academy",
+  description: "Privacy Policy and data protection standards for Agentis Academy.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#2b1a07] mb-3">1. Introduction</h2>
             <p>
-              AgentCraft Academy (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and safeguarded when you visit our website (<strong>agentcraft.academy</strong>), enroll in our cohort courses, or purchase our digital curriculum passes.
+              Agentis Academy (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and safeguarded when you visit our website (<strong>agentis.academy</strong>), enroll in our cohort courses, or purchase our digital curriculum passes.
             </p>
           </section>
 
@@ -85,17 +85,17 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#2b1a07] mb-3">6. Your Rights</h2>
             <p>
-              Under applicable Indian Information Technology Acts and DPDP regulations, you have the right to access, rectify, or request deletion of your personal information. To exercise these rights, email us at <a href="mailto:privacy@agentcraft.academy" className="text-[#ff6f1e] underline">privacy@agentcraft.academy</a>.
+              Under applicable Indian Information Technology Acts and DPDP regulations, you have the right to access, rectify, or request deletion of your personal information. To exercise these rights, email us at <a href="mailto:privacy@agentis.academy" className="text-[#ff6f1e] underline">privacy@agentis.academy</a>.
             </p>
           </section>
 
           <section className="p-6 rounded-[12px] bg-[#f7efe9] border border-[#171717]/20 mt-8">
             <h3 className="font-bold text-[#2b1a07] mb-2">Grievance & Privacy Officer</h3>
             <p className="text-sm">
-              <strong>AgentCraft Academy</strong><br />
+              <strong>Agentis Academy</strong><br />
               Attn: Data Protection Officer<br />
               Bandra Kurla Complex (BKC), Mumbai, Maharashtra 400051, India<br />
-              Email: <a href="mailto:privacy@agentcraft.academy" className="text-[#ff6f1e] underline">privacy@agentcraft.academy</a><br />
+              Email: <a href="mailto:privacy@agentis.academy" className="text-[#ff6f1e] underline">privacy@agentis.academy</a><br />
               Phone: +91 98200 41289
             </p>
           </section>

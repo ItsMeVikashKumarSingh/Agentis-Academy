@@ -5,8 +5,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Terms & Conditions — AgentCraft Academy",
-  description: "Terms of Service and enrollment agreement for AgentCraft Academy.",
+  title: "Terms & Conditions — Agentis Academy",
+  description: "Terms of Service and enrollment agreement for Agentis Academy.",
 };
 
 export default function TermsPage() {
@@ -39,14 +39,14 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-[#2b1a07] mb-3">1. Agreement to Terms</h2>
             <p>
-              By accessing our website (<strong>agentcraft.academy</strong>) or enrolling in any program, workshop, or digital course offered by AgentCraft Academy (&quot;Company,&quot; &quot;we,&quot; &quot;us&quot;), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our services or purchase passes.
+              By accessing our website (<strong>agentis.academy</strong>) or enrolling in any program, workshop, or digital course offered by Agentis Academy (&quot;Company,&quot; &quot;we,&quot; &quot;us&quot;), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our services or purchase passes.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-bold text-[#2b1a07] mb-3">2. Educational Services & Digital Access</h2>
             <p className="mb-2">
-              AgentCraft Academy provides professional online technical education regarding autonomous AI agents, workflow automation, and local model deployment:
+              Agentis Academy provides professional online technical education regarding autonomous AI agents, workflow automation, and local model deployment:
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-sm">
               <li>Access to live lectures, workshop recordings, curriculum repositories, and community communication channels is provided on a single-seat license basis.</li>
@@ -73,7 +73,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-[#2b1a07] mb-3">5. Intellectual Property Rights</h2>
             <p>
-              All curriculum designs, lecture decks, audio-visual recordings, and proprietary starter frameworks are the exclusive intellectual property of AgentCraft Academy. Code created by you during your own lab assignments and projects belongs 100% to you.
+              All curriculum designs, lecture decks, audio-visual recordings, and proprietary starter frameworks are the exclusive intellectual property of Agentis Academy. Code created by you during your own lab assignments and projects belongs 100% to you.
             </p>
           </section>
 
@@ -87,9 +87,9 @@ export default function TermsPage() {
           <section className="p-6 rounded-[12px] bg-[#f7efe9] border border-[#171717]/20 mt-8">
             <h3 className="font-bold text-[#2b1a07] mb-2">Corporate Information</h3>
             <p className="text-sm">
-              <strong>AgentCraft Academy</strong><br />
+              <strong>Agentis Academy</strong><br />
               Bandra Kurla Complex (BKC), Mumbai, Maharashtra 400051, India<br />
-              Email: <a href="mailto:legal@agentcraft.academy" className="text-[#ff6f1e] underline">legal@agentcraft.academy</a><br />
+              Email: <a href="mailto:legal@agentis.academy" className="text-[#ff6f1e] underline">legal@agentis.academy</a><br />
               Helpline: +91 98200 41289
             </p>
           </section>

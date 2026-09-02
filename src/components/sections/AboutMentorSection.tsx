@@ -61,7 +61,7 @@ export default function AboutMentorSection() {
                 When LLMs first emerged, bootcamps and influencers rushed to sell prompt-engineering tricks and toy wrapper scripts. But in production, naive loops crash on turn three, burn through unnecessary cloud token bills, and fail compliance audits.
               </p>
               <p>
-                AgentCraft was founded on one clear premise: building autonomous systems is an <MarkerHighlight>engineering discipline</MarkerHighlight>, not prompt witchcraft. We teach cyclic state machines, local MCP tool execution, and deterministic guardrails so your agents become your most reliable teammates.
+                Agentis was founded on one clear premise: building autonomous systems is an <MarkerHighlight>engineering discipline</MarkerHighlight>, not prompt witchcraft. We teach cyclic state machines, local MCP tool execution, and deterministic guardrails so your agents become your most reliable teammates.
               </p>
             </div>
 

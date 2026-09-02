@@ -5,8 +5,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Refund & Cancellation Policy — AgentCraft Academy",
-  description: "14-Day Money-Back Guarantee and cancellation terms for AgentCraft Academy.",
+  title: "Refund & Cancellation Policy — Agentis Academy",
+  description: "14-Day Money-Back Guarantee and transparent refund policy for Agentis Academy.",
 };
 
 export default function RefundPolicyPage() {
@@ -25,71 +25,64 @@ export default function RefundPolicyPage() {
         <div className="border-b border-[#171717]/15 pb-8 mb-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f7efe9] border border-[#171717] text-xs font-semibold mb-4">
             <RefreshCw size={14} className="text-[#22c55e]" />
-            <span>100% Student Protection Guarantee</span>
+            <span>100% Student Protection Policy</span>
           </div>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-[#2b1a07] tracking-tight">
             Refund & Cancellation Policy
           </h1>
           <p className="font-display text-sm text-[#171717]/60 mt-2">
-            Clear, transparent policies compliant with Indian Consumer Protection guidelines.
+            Effective Date: March 1, 2026 • 14-Day Money-Back Guarantee
           </p>
         </div>
 
         <div className="space-y-8 font-display text-base text-[#171717]/85 leading-relaxed">
-          {/* Highlight Box */}
-          <div className="p-6 rounded-[14px] bg-[#f7efe9] border-2 border-[#171717] flex items-start gap-4">
-            <CheckCircle2 size={24} className="text-[#22c55e] mt-0.5 shrink-0" />
-            <div>
-              <h2 className="text-xl font-bold text-[#2b1a07] mb-1">Our 14-Day Money-Back Guarantee</h2>
-              <p className="text-sm text-[#171717]/80 leading-relaxed">
-                We believe in the real-world engineering value of our curriculum. If you attend our live weekend cohort sessions during the first 14 calendar days and conclude that this program does not deliver high leverage for your engineering career, we will issue a full 100% refund — no interrogation.
-              </p>
+          {/* Highlight Banner */}
+          <div className="p-6 rounded-[16px] bg-[#fdfbf9] border-[1.5px] border-[#171717] shadow-[rgba(0,0,0,0.15)_0px_2px_8px_0px]">
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 rounded-full bg-[#22c55e]/20 border border-[#171717] flex items-center justify-center shrink-0">
+                <CheckCircle2 size={22} className="text-[#15803d]" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-[#2b1a07] mb-1">
+                  14-Day 100% Money-Back Guarantee
+                </h3>
+                <p className="text-sm text-[#171717]/80 leading-relaxed">
+                  We are engineers who pride ourselves on delivering the most rigorous production-grade AI curriculum available. If you attend the live labs during the first 14 days and decide the course is not for you, we will issue a complete 100% refund — no questions asked, no friction.
+                </p>
+              </div>
             </div>
           </div>
 
           <section>
-            <h2 className="text-xl font-bold text-[#2b1a07] mb-3">1. Refund Eligibility Window</h2>
-            <ul className="list-disc pl-5 space-y-2 text-sm">
-              <li>
-                <strong>Live Cohort Passes (Builder Lab / Fellowship):</strong> You have <strong>14 calendar days</strong> from the official cohort kickoff date to request a full refund.
-              </li>
-              <li>
-                <strong>Self-Paced Tracks (Starter Pass):</strong> You have <strong>7 calendar days</strong> from the timestamp of purchase to request a full refund, provided less than 25% of video lessons have been marked completed.
-              </li>
-            </ul>
+            <h2 className="text-xl font-bold text-[#2b1a07] mb-3">1. Eligibility Timeline</h2>
+            <p>
+              You may request a full refund within <strong>14 calendar days</strong> from the official kickoff date of your enrolled cohort. For self-paced standalone track passes, refund requests must be initiated within <strong>7 calendar days</strong> of purchase, provided less than 25% of course content has been accessed.
+            </p>
           </section>
 
           <section>
             <h2 className="text-xl font-bold text-[#2b1a07] mb-3">2. How to Request a Refund</h2>
-            <p className="mb-2">Requesting a refund takes less than 2 minutes:</p>
-            <ol className="list-decimal pl-5 space-y-1.5 text-sm">
-              <li>Send an email from your registered purchase email address to <a href="mailto:refunds@agentcraft.academy" className="text-[#ff6f1e] underline">refunds@agentcraft.academy</a> or drop a WhatsApp message to <strong>+91 98200 41289</strong>.</li>
-              <li>Mention your full name, Order / Payment ID, and registered phone number.</li>
-              <li>A brief sentence of feedback is appreciated to help us improve, but is completely optional.</li>
+            <p className="mb-3">Initiating a refund is straightforward:</p>
+            <ol className="list-decimal pl-5 space-y-2 text-sm">
+              <li>Send an email to <a href="mailto:refunds@agentis.academy" className="text-[#ff6f1e] underline">refunds@agentis.academy</a> from the email address used during purchase.</li>
+              <li>Include your full name, registered phone number, and Order / Payment ID (from your invoice receipt).</li>
+              <li>Our support desk will acknowledge your request within 24 business hours.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#2b1a07] mb-3">3. Processing Time & Settlement</h2>
+            <h2 className="text-xl font-bold text-[#2b1a07] mb-3">3. Refund Processing & Bank Timelines</h2>
             <p>
-              Once initiated, our finance team approves eligible refund requests within <strong>24 business hours</strong>. The refunded amount will be credited back to your original source of payment (UPI account, Credit/Debit Card, or NetBanking bank account) within <strong>5 to 7 banking business days</strong>, in compliance with RBI / Payment Gateway (Razorpay/Stripe) timelines.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-bold text-[#2b1a07] mb-3">4. Cancellation & Cohort Transfers</h2>
-            <p>
-              If unexpected work emergencies or family commitments arise, you may request to pause your enrollment and transfer to the subsequent cohort batch at zero additional cost, provided you inform us prior to Week 3 of the current cohort.
+              Once approved, your refund is processed immediately via our payment gateway (Razorpay/Stripe). The funds will reflect in your original payment method (Credit Card, Debit Card, NetBanking, or UPI) within <strong>5 to 7 banking business days</strong>, depending on your card issuer or banking partner.
             </p>
           </section>
 
           <section className="p-6 rounded-[12px] bg-[#f7efe9] border border-[#171717]/20 mt-8">
-            <h3 className="font-bold text-[#2b1a07] mb-2">Dedicated Refund Helpdesk</h3>
+            <h3 className="font-bold text-[#2b1a07] mb-2">Refund Helpdesk</h3>
             <p className="text-sm">
-              <strong>AgentCraft Academy Student Accounts</strong><br />
-              Email: <a href="mailto:refunds@agentcraft.academy" className="text-[#ff6f1e] underline">refunds@agentcraft.academy</a><br />
-              WhatsApp / Helpline: +91 98200 41289<br />
-              Operating Hours: Monday – Saturday, 10:00 AM – 7:00 PM IST
+              Email: <a href="mailto:refunds@agentis.academy" className="text-[#ff6f1e] underline">refunds@agentis.academy</a><br />
+              WhatsApp Helpline: +91 98200 41289<br />
+              Hours: Monday – Saturday, 10:00 AM – 7:00 PM IST
             </p>
           </section>
         </div>

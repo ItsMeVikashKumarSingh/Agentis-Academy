@@ -333,7 +333,7 @@ export const TESTIMONIALS: Testimonial[] = [
     author: "Tanmay Sawant",
     role: "Staff Backend Engineer",
     avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
-    content: "Most AI bootcamps just teach you to wrap an OpenAI API key in a toy script. AgentCraft taught me cyclic graphs, state checkpointing, and local MCP privacy. We automated our entire data ingestion with zero hallucination.",
+    content: "Most AI bootcamps just teach you to wrap an OpenAI API key in a toy script. Agentis taught me cyclic graphs, state checkpointing, and local MCP privacy. We automated our entire data ingestion with zero hallucination.",
     highlightWord: "cyclic graphs",
     cohort: "Cohort 02 Alumni",
     rating: 5

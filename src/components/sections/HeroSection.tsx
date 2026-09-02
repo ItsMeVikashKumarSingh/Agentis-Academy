@@ -33,7 +33,7 @@ export default function HeroSection() {
 
             {/* Display Headline: Cocoa Ink 104px */}
             <h1 className="headline-display mb-6 tracking-tight">
-              Meet AgentCraft.
+              Meet Agentis.
             </h1>
 
             {/* Body Copy with inline marker highlight */}

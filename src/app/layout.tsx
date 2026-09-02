@@ -17,11 +17,11 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "AgentCraft — AI Agents & Automation Academy",
+  title: "Agentis Academy — AI Agents & Automation Engineering",
   description: "Premier engineering academy for building, orchestrating, and deploying production autonomous AI agents, multi-agent swarms, and enterprise workflow automations.",
   keywords: "ai agents, autonomous agents, langgraph, crewai, n8n automation, model context protocol, mcp, local llm, python, agent architecture",
   openGraph: {
-    title: "AgentCraft — AI Agents & Automation Academy",
+    title: "Agentis Academy — AI Agents & Automation Engineering",
     description: "Build, orchestrate, and deploy production-grade autonomous AI agents and workflows.",
     type: "website",
   },
