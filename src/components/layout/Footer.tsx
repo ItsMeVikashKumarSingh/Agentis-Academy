@@ -139,24 +139,35 @@ export default function Footer() {
                 Bandra Kurla Complex (BKC), Mumbai, Maharashtra 400051, India
               </p>
               <p className="font-mono text-xs text-[#2b1a07]/75">
-                lab@agentcraft.academy<br />
-                +91 98200 41289
+                <a href="mailto:lab@agentcraft.academy" className="hover:underline">lab@agentcraft.academy</a><br />
+                <a href="tel:+919820041289" className="hover:underline">+91 98200 41289</a>
               </p>
+              <div className="mt-3">
+                <Link href="/contact-us" className="text-xs font-display font-semibold text-[#ff6f1e] hover:underline inline-flex items-center gap-1">
+                  Full Contact Details →
+                </Link>
+              </div>
             </div>
           </div>
 
-          {/* Bottom fine print */}
-          <div className="pt-8 border-t border-[#171717]/20 flex flex-col sm:flex-row items-center justify-between text-xs text-[#2b1a07]/80 gap-4">
+          {/* Bottom fine print & Payment Gateway Compliance Links */}
+          <div className="pt-8 border-t border-[#171717]/20 flex flex-col md:flex-row items-center justify-between text-xs text-[#2b1a07]/80 gap-4">
             <p>© 2026 AgentCraft Academy. All rights reserved.</p>
-            <div className="flex gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
               <Link href="/privacy-policy" className="hover:underline">
                 Privacy Policy
               </Link>
               <Link href="/terms-conditions" className="hover:underline">
-                Terms of Service
+                Terms & Conditions
               </Link>
               <Link href="/refund-policy" className="hover:underline">
-                14-Day Refund Policy
+                Refund & Cancellation
+              </Link>
+              <Link href="/delivery-policy" className="hover:underline">
+                Shipping & Delivery
+              </Link>
+              <Link href="/contact-us" className="hover:underline">
+                Contact Us
               </Link>
             </div>
           </div>
