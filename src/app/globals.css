@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+:root {
+  /* Colors */
+  --color-cream-paper: #fdfbf9;
+  --color-charcoal: #171717;
+  --color-cocoa-ink: #2b1a07;
+  --color-true-black: #000000;
+  --color-dew-drop: #f7efe9;
+  --color-marker-orange: #ff6f1e;
+  --color-burnt-sienna: #ce500a;
+  --color-sky-sticker: #3b82f6;
+  --color-bubblegum-sticker: #ff66cf;
+  --color-sprout-sticker: #22c55e;
+  --color-shadow-mist: #bebcbb;
+
+  /* Typography */
+  --font-display: var(--font-fraunces, 'Recoleta', 'Fraunces', 'DM Serif Display', Georgia, serif);
+  --font-sans: var(--font-geist, 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+
+  /* Shadows */
+  --shadow-lg: rgba(0, 0, 0, 0.06) 0px 2px 20px 0px;
+  --shadow-subtle: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+  --shadow-paper: rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+}
+
+@theme {
+  --color-cream-paper: #fdfbf9;
+  --color-charcoal: #171717;
+  --color-cocoa-ink: #2b1a07;
+  --color-true-black: #000000;
+  --color-dew-drop: #f7efe9;
+  --color-marker-orange: #ff6f1e;
+  --color-burnt-sienna: #ce500a;
+  --color-sky-sticker: #3b82f6;
+  --color-bubblegum-sticker: #ff66cf;
+  --color-sprout-sticker: #22c55e;
+  --color-shadow-mist: #bebcbb;
+
+  --font-display: var(--font-fraunces, 'Recoleta', 'Fraunces', 'DM Serif Display', Georgia, serif);
+  --font-sans: var(--font-geist, 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-cream-paper);
+}
+
+body {
+  background-color: var(--color-cream-paper);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Display Typography */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.headline-display {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 7vw, 6.5rem);
+  line-height: 1.05;
+  font-weight: 600;
+  color: var(--color-cocoa-ink);
+}
+
+/* Superr Pill Button */
+.btn-pill {
+  background-color: var(--color-cream-paper);
+  border: 1.5px solid var(--color-charcoal);
+  border-radius: 20px;
+  padding: 10px 28px;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-charcoal);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-pill:hover {
+  transform: translateY(-1.5px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px 0px;
+  background-color: var(--color-cream-paper);
+}
+
+.btn-pill:active {
+  transform: translateY(0px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+}
+
+/* Superr Tag / Pill Badge */
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  border: 1.5px solid var(--color-charcoal);
+  background-color: var(--color-dew-drop);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+/* Notebook Cards */
+.notebook-card {
+  background-color: var(--color-cream-paper);
+  border: 1.5px solid var(--color-charcoal);
+  border-radius: 12px;
+  padding: 28px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 20px 0px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.notebook-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 24px 0px;
+}
+
+/* Laminated Name Sticker */
+.name-sticker {
+  background-color: #ffffff;
+  border: 1px solid var(--color-charcoal);
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 6px 0px;
+}
+
+/* Marker Orange Annotations */
+.script-caption {
+  font-family: var(--font-display);
+  color: var(--color-marker-orange);
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Hand-drawn marker underline */
+.marker-highlight {
+  color: var(--color-marker-orange);
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.marker-highlight::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-marker-orange);
+  border-radius: 2px;
+  transform: rotate(-0.5deg) scaleX(1.02);
+}
+
+/* Paper Grid & Lined Textures */
+.paper-lined {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 27px,
+    rgba(23, 23, 23, 0.06) 28px
+  );
+}
+
+.paper-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(23, 23, 23, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 23, 23, 0.04) 1px, transparent 1px);
+}
+
+/* Brand Footer Band */
+.footer-brand-band {
+  background-color: var(--color-marker-orange);
+  border-top-left-radius: 56px;
+  border-top-right-radius: 56px;
+}
